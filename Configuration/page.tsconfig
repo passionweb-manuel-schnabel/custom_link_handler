@@ -1,0 +1,11 @@
+TCEMAIN.linkHandler {
+    codebreakLinkHandler {
+        handler = Passionweb\\CustomLinkHandler\\LinkHandler\\CodebreakLinkHandler
+        label = LLL:EXT:custom_link_handler/Resources/Private/Language/locallang.xlf:codebreakLinkHandler
+        displayAfter = url
+        scanBefore = url
+        configuration {
+            project = Passionweb Codebreaks/Custom Link Handler
+        }
+    }
+}
