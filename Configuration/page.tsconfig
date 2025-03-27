@@ -1,11 +1,18 @@
-TCEMAIN.linkHandler {
-    codebreakLinkHandler {
-        handler = Passionweb\\CustomLinkHandler\\LinkHandler\\CodebreakLinkHandler
-        label = LLL:EXT:custom_link_handler/Resources/Private/Language/locallang.xlf:codebreakLinkHandler
-        displayAfter = url
-        scanBefore = url
-        configuration {
-            project = Passionweb Codebreaks/Custom Link Handler
-        }
+TCEMAIN.linkHandler.codebreak_handler {
+    handler = TYPO3\CMS\Backend\LinkHandler\RecordLinkHandler
+    label = LLL:EXT:custom_link_handler/Resources/Private/Language/locallang.xlf:codebreakhandler
+    configuration {
+        table = custom_link_handler_domain_model_codebreak
+        storagePid = 123
+        hidePageTree = 0
+    }
+    scanAfter = page
+}
+
+config.recordLinks.codebreak_handler {
+    typolink {
+        parameter = 123
+        additionalParams.data = field:uid
+        additionalParams.wrap = &tx_custom_link_handler_title=title
     }
 }

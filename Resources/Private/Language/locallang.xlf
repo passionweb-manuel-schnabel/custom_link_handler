@@ -3,7 +3,7 @@
     <file source-language="en" datatype="plaintext" original="EXT:custom_link_handler/Resources/Private/Language/locallang.xlf" date="2024-01-16T11:20:00Z" product-name="custom_link_handler">
         <header/>
         <body>
-            <trans-unit id="codebreakLinkHandler">
+            <trans-unit id="codebreakhandler">
                 <source>Codebreak Link Handler</source>
             </trans-unit>
             <trans-unit id="page">
