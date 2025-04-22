@@ -1,0 +1,8 @@
+# parameter needs to be configured for custom detail page
+config.recordLinks.tx_customlinkhandler {
+    typolink {
+        parameter = 15
+        additionalParams.data = field:uid
+        additionalParams.wrap = &tx_codebreak_pi1[controller]=Codebreak&tx_codebreak_pi1[action]=detail&tx_codebreak_pi1[codebreak]=|
+    }
+}

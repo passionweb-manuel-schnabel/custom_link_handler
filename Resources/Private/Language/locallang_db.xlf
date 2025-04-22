@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="EXT:custom_link_handler/Resources/Private/Language/locallang_db.xlf" date="2024-01-16T11:20:00Z" product-name="custom_link_handler">
+        <header/>
+        <body>
+            <trans-unit id="tx_custom_link_handler_domain_model_codebreak.title">
+                <source>Codebreak</source>
+            </trans-unit>
+            <trans-unit id="tx_custom_link_handler_domain_model_codebreak.codebreak_title">
+                <source>Title</source>
+            </trans-unit>
+            <trans-unit id="tx_custom_link_handler_domain_model_codebreak.codebreak_description">
+                <source>Description</source>
+            </trans-unit>
+            <trans-unit id="tx_custom_link_handler_domain_model_codebreak.codebreak_link">
+                <source>Link</source>
+            </trans-unit>
+            <trans-unit id="codebreakhandler">
+                <source>Codebreak Link Handler</source>
+            </trans-unit>
+            <trans-unit id="page">
+                <source>Page</source>
+            </trans-unit>
+            <trans-unit id="page_id">
+                <source>Page Id</source>
+            </trans-unit>
+            <trans-unit id="setLink">
+                <source>Set Link</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

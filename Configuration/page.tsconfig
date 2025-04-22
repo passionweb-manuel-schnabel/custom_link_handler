@@ -1,18 +1,11 @@
-TCEMAIN.linkHandler.codebreak_handler {
+# needs to be configured for your custom record
+TCEMAIN.linkHandler.tx_customlinkhandler {
     handler = TYPO3\CMS\Backend\LinkHandler\RecordLinkHandler
-    label = LLL:EXT:custom_link_handler/Resources/Private/Language/locallang.xlf:codebreakhandler
+    label = LLL:EXT:custom_link_handler/Resources/Private/Language/locallang_db.xlf:codebreakhandler
     configuration {
-        table = custom_link_handler_domain_model_codebreak
-        storagePid = 123
+        table = tx_customlinkhandler_domain_model_codebreak
+        storagePid = 18
         hidePageTree = 0
     }
     scanAfter = page
-}
-
-config.recordLinks.codebreak_handler {
-    typolink {
-        parameter = 123
-        additionalParams.data = field:uid
-        additionalParams.wrap = &tx_custom_link_handler_title=title
-    }
 }

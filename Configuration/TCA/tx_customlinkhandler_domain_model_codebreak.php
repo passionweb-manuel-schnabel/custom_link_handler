@@ -1,7 +1,7 @@
 <?php
 return [
     'ctrl' => [
-        'title' => 'LLL:EXT:custom_link_handler/Resources/Private/Language/locallang_db.xlf:tx_custom_link_handler_domain_model_coderbreak.title',
+        'title' => 'LLL:EXT:custom_link_handler/Resources/Private/Language/locallang_db.xlf:tx_custom_link_handler_domain_model_codebreak.title',
         'label' => 'title',
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
@@ -53,7 +53,7 @@ return [
         ],
         'title' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:custom_link_handler/Resources/Private/Language/locallang_db.xlf:tx_custom_link_handler_domain_model_coderbreak.title',
+            'label' => 'LLL:EXT:custom_link_handler/Resources/Private/Language/locallang_db.xlf:tx_custom_link_handler_domain_model_codebreak.codebreak_title',
             'config' => [
                 'type' => 'input',
                 'size' => 30,
@@ -63,7 +63,7 @@ return [
         ],
         'description' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:custom_link_handler/Resources/Private/Language/locallang_db.xlf:tx_custom_link_handler_domain_model_coderbreak.description',
+            'label' => 'LLL:EXT:custom_link_handler/Resources/Private/Language/locallang_db.xlf:tx_custom_link_handler_domain_model_codebreak.codebreak_description',
             'config' => [
                 'type' => 'text',
                 'cols' => 40,
@@ -74,7 +74,7 @@ return [
         ],
         'link' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:custom_link_handler/Resources/Private/Language/locallang_db.xlf:tx_custom_link_handler_domain_model_coderbreak.link',
+            'label' => 'LLL:EXT:custom_link_handler/Resources/Private/Language/locallang_db.xlf:tx_custom_link_handler_domain_model_codebreak.codebreak_link',
             'config' => [
                 'type' => 'link',
                 'size' => 30,
